@@ -641,7 +641,7 @@
                     var e = fe();
                     return o.a.createElement("div", {
                         className: e.root
-                    }, o.a.createElement("div", null, "개발 : 코로나콕"), o.a.createElement("div", null, "corona.coc.kr"), o.a.createElement("div", null, "지도 제공 : kakao"))
+                    }, o.a.createElement("div", null, "데이터 제공 : 한국정보화진흥원"), o.a.createElement("div", null, ""), o.a.createElement("div", null, "지도 제공 : kakao"))
                 },
                 ge = function() {
                     return o.a.createElement(o.a.Fragment, null, o.a.createElement(be, null))
