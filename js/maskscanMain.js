@@ -146,9 +146,9 @@
                         rightTopToolbar: Object(E.a)({
                             position: "fixed",
                             zIndex: 1e3,
-                            right: e.spacing(1),
-                            top: e.spacing(8),
-                            backgroundColor: "#fff"
+                            left: e.spacing(1),
+                            top: e.spacing(13),
+                            backgroundColor: "#f0f0f0"
                         }, e.breakpoints.up("sm"), {
                             top: e.spacing(10),
                             right: e.spacing(2)
@@ -158,7 +158,7 @@
                             zIndex: 1e3,
                             left: e.spacing(1),
                             top: e.spacing(8),
-                            backgroundColor: "#fff"
+                            backgroundColor: "#f0f0f0"
                         }, e.breakpoints.up("sm"), {
                             top: e.spacing(10),
                             left: e.spacing(2)
@@ -175,8 +175,8 @@
                         className: c.rightTopToolbar
                     }, o.a.createElement(L.a, {
                         orientation: "vertical",
-                        variant: "outlined",
-                        color: "primary",
+                        variant: "contained",
+                        color: "secondary",
                         "aria-label": "outlined primary button group"
                     }, o.a.createElement(B.a, {
                         disabled: t,
