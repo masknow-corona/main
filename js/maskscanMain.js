@@ -500,7 +500,7 @@
                         var e = document.getElementById("map"),
                             t = {
                                 center: new v.maps.LatLng(37.4019528117587, 127.10828323199647),
-                                level: 7
+                                level: 4
                             },
                             a = new v.maps.Map(e, t);
                         y(a), l(!1)
