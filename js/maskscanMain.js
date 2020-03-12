@@ -428,7 +428,7 @@
                             top: 0,
                             left: 0,
                             zIndex: 10,
-                            backgroundColor: "rgba(192,192,192,0)",
+                            backgroundColor: "rgba(192,192,192,0.3)",
                             pointerEvents: "none"
                         }
                     }
@@ -679,7 +679,7 @@
                         style: {
                             fontSize: 13
                         }
-                    },  "마스크 NOW에서 제공하는 정보는 실제 정보와 차이가 있을 수 있으며, ", o.a.createElement("strong", null, "5~10분 가량 지연이 발생할 수 있습니다.")), o.a.createElement(O.a, {
+                    },  " 마스크 NOW에서 제공하는 정보는 실제 정보와 차이가 있을 수 있으며, ", o.a.createElement("strong", null, "5~10분 가량 지연이 발생할 수 있습니다.")), o.a.createElement(O.a, {
                         variant: "body2",
                         gutterBottom: !0,
                         style: {
