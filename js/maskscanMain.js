@@ -287,7 +287,7 @@
                 })),
                 Y = {
                     plenty: {
-                        label: "100\uac1c \uc774\uc0c1",
+                        label: "100+",
                         backgroundColor: U.a[700],
                         color: $.a[100],
                         tooltipFontColor: U.a[300]
@@ -347,10 +347,10 @@
                             }, n), o.a.createElement(O.a, {
                                 className: i.content,
                                 component: "p"
-                            }, "\uc785\uace0\uc2dc\uac04: ", c), o.a.createElement(O.a, {
+                            }, "입고 : ", c), o.a.createElement(O.a, {
                                 className: i.content,
                                 component: "p"
-                            }, "\uc5c5\ub370\uc774\ud2b8: ", l))
+                            }, "업데이트 : ", l))
                         }), null))
                     }, o.a.createElement(q.a, {
                         className: i.normal,
@@ -428,7 +428,7 @@
                             top: 0,
                             left: 0,
                             zIndex: 10,
-                            backgroundColor: "rgba(192,192,192,0.3)",
+                            backgroundColor: "rgba(192,192,192,0)",
                             pointerEvents: "none"
                         }
                     }
@@ -500,7 +500,7 @@
                         var e = document.getElementById("map"),
                             t = {
                                 center: new v.maps.LatLng(37.4019528117587, 127.10828323199647),
-                                level: 5
+                                level: 7
                             },
                             a = new v.maps.Map(e, t);
                         y(a), l(!1)
@@ -673,19 +673,19 @@
                             color: "red"
                         }
                     
-                    },  o.a.createElement("strong", null, "현재 베타서비스 중입니다.")), o.a.createElement(O.a, {
+                    },  o.a.createElement("strong", null, "15일까지는 베타서비스 중입니다.")), o.a.createElement(O.a, {
                         variant: "body2",
                         gutterBottom: !0,
                         style: {
                             fontSize: 13
                         }
-                    },  " 마스크 NOW에서 제공하는 정보는 실제 정보와 차이가 있을 수 있으며, ", o.a.createElement("strong", null, "수 분 가량 지연이 발생할 수 있습니다.")), o.a.createElement(O.a, {
+                    },  "마스크 NOW에서 제공하는 정보는 실제 정보와 차이가 있을 수 있으며, ", o.a.createElement("strong", null, "5~10분 가량 지연이 발생할 수 있습니다.")), o.a.createElement(O.a, {
                         variant: "body2",
                         gutterBottom: !0,
                         style: {
                             fontSize: 13
                         }
-                    }, "해당 정보를 지나치게 신뢰하여 약국에 불필요한 이의 제기를 하지 말아주세요. "), o.a.createElement(he.a, {
+                    }, "해당 정보를 지나치게 신뢰하여 약국에 불필요한 이의 제기를 하지 말아주세요. 공익을 위해 힘써주시는 모든 약사분들을 응원합니다!"), o.a.createElement(he.a, {
                         style: {
                             margin: "10px 0"
                         }
