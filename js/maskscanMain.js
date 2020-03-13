@@ -59,10 +59,10 @@
                         }),
                         search: Object(E.a)({
                             position: "relative",
-                            borderRadius: e.shape.borderRadius,
+                            borderRadius: 20,
                             backgroundColor: Object(j.c)(e.palette.common.white, .15),
                             "&:hover": {
-                                backgroundColor: Object(j.c)(e.palette.common.white, .25)
+                                backgroundColor: Object(j.c)(e.palette.common.white, .20)
                             },
                             marginLeft: 0,
                             width: "100%"
@@ -88,9 +88,9 @@
                             transition: e.transitions.create("width"),
                             width: "100%"
                         }, e.breakpoints.up("sm"), {
-                            width: 120,
+                            width: 150,
                             "&:focus": {
-                                width: 200
+                                width: 230
                             }
                         })
                     }
@@ -148,10 +148,10 @@
                             zIndex: 1e3,
                             left: e.spacing(1),
                             top: e.spacing(13),
-                            backgroundColor: "#f0f0f0"
+                            backgroundColor: ""
                         }, e.breakpoints.up("sm"), {
-                            top: e.spacing(10),
-                            right: e.spacing(2)
+                            top: e.spacing(15),
+                            left: e.spacing(2)
                         }),
                         leftTopToolbar: Object(E.a)({
                             position: "fixed",
@@ -516,7 +516,7 @@
                     return Object(n.useEffect)((function() {
                         var e = document.getElementById("map"),
                             t = {
-                                center: new v.maps.LatLng(37.4019528117587, 127.10828323199647),
+                                center: new v.maps.LatLng(36.5041166,127.2677488),
                                 level: 4
                             },
                             a = new v.maps.Map(e, t);
