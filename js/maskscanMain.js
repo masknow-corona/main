@@ -309,6 +309,12 @@
                         backgroundColor: $.a[700],
                         color: $.a[100],
                         tooltipFontColor: $.a[300]
+                    },
+                    break: {
+                        label: "판매중지",
+                        backgroundColor: $.a[700],
+                        color: $.a[100],
+                        tooltipFontColor: $.a[300]
                     }
                 },
                 ee = function(e) {
