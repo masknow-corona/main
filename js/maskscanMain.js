@@ -59,13 +59,13 @@
                         }),
                         search: Object(E.a)({
                             position: "relative",
-                            borderRadius: 20,
+                            borderRadius: 13,
                             backgroundColor: Object(j.c)(e.palette.common.white, .15),
                             "&:hover": {
                                 backgroundColor: Object(j.c)(e.palette.common.white, .20)
                             },
-                            marginLeft: 0,
-                            width: "100%"
+                            marginLeft: e.spacing(-0.5),
+                            width: "80%"
                         }, e.breakpoints.up("sm"), {
                             marginLeft: e.spacing(1),
                             width: "auto"
@@ -87,6 +87,7 @@
                             padding: e.spacing(1, 1, 1, 7),
                             transition: e.transitions.create("width"),
                             width: "100%"
+
                         }, e.breakpoints.up("sm"), {
                             width: 150,
                             "&:focus": {
@@ -115,7 +116,7 @@
                     }, o.a.createElement("div", {
                         className: a.searchIcon
                     }, o.a.createElement(C.a, null)), o.a.createElement(k.a, {
-                        placeholder: "장소 검색",
+                        placeholder: "위치 검색",
                         classes: {
                             root: a.inputRoot,
                             input: a.inputInput
@@ -158,7 +159,8 @@
                             zIndex: 1e3,
                             left: e.spacing(1),
                             top: e.spacing(8),
-                            backgroundColor: "#f0f0f0"
+                            backgroundColor: "#fff",
+                            borderRadius: 13
                         }, e.breakpoints.up("sm"), {
                             top: e.spacing(10),
                             left: e.spacing(2)
@@ -327,7 +329,7 @@
                         i = X(),
                         s = !!Y[r],
                         u = Y[r] || {
-                            label: "정보없음",
+                            label: "미확인",
                             backgroundColor: $.a[700],
                             color: $.a[100],
                             tooltipFontColor: $.a[300]
@@ -339,23 +341,34 @@
                             return o.a.createElement("div", null, o.a.createElement(O.a, {
                                 className: i.title,
                                 style: {
-                                    marginBottom: 3
+                                    marginBottom: 1,
+                                    fontSize: 23
                                 }
                             }, a), s && o.a.createElement(O.a, {
                                 className: i.content,
                                 component: "p",
                                 style: {
-                                    color: u.tooltipFontColor
+                                    color: u.tooltipFontColor,
+                                    fontSize: 16
                                 }
                             }, u.label), o.a.createElement(O.a, {
                                 className: i.content,
-                                component: "p"
+                                component: "p",
+                                style: {
+                                    fontSize: 13
+                                }
                             }, n), o.a.createElement(O.a, {
                                 className: i.content,
-                                component: "p"
+                                component: "p",
+                                style: {
+                                    fontSize: 12
+                                }
                             }, "입고 : ", c), o.a.createElement(O.a, {
                                 className: i.content,
-                                component: "p"
+                                component: "p",
+                                style: {
+                                    fontSize: 12
+                                }
                             }, "업데이트 : ", l))
                         }), null))
                     }, o.a.createElement(q.a, {
