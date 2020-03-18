@@ -698,13 +698,13 @@
                         style: {
                             fontSize: 13
                         }
-                    }, o.a.createElement("strong", null, "15일까지는 베타서비스 기간이므로 서버가 불안정할 수 있습니다.")), o.a.createElement(O.a, {
+                    }, o.a.createElement("strong", null, "")), o.a.createElement(O.a, {
                         variant: "body2",
                         gutterBottom: !0,
                         style: {
                             fontSize: 13
                         }
-                    }, " 마스크 NOW에서 제공하는 정보는 실제 정보와 차이가 있을 수 있으며, ", o.a.createElement("strong", null, "5~10분 가량 지연이 발생"), "할 수 있습니다."), o.a.createElement(O.a, {
+                    }, " 마스크 NOW에서 제공하는 정보는 실제 현장 상황과 다를 수 있으며, ", o.a.createElement("strong", null, "5~10분 가량 지연이 발생"), "할 수 있습니다."), o.a.createElement(O.a, {
                         variant: "body2",
                         gutterBottom: !0,
                         style: {
